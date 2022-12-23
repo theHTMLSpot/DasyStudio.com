@@ -1,0 +1,166 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: monospace;
+}
+.main{
+	background: linear-gradient(0,0,0,0.5) #fff;
+}
+nav{
+	width: 100vw;
+	height: 100px;
+	background: #fff;
+}
+.logo{
+	float: left;
+	text-align: center;
+	font-size: 32px;
+	padding-top: 0px;
+	display: flex;
+	padding-left: 32px;
+}
+.logo img{
+	color: #ff7200;
+	width: 100px;
+	height: 100px;
+	line-height: 100px;
+	cursor: pointer;
+}
+.menu ul{
+	text-align: center;
+	padding-left: 32px;
+	padding-top: 50px;
+}
+.menu ul li{
+	width: 14px;
+	height: 10px;
+	display: inline-flex;
+	list-style: none;
+	padding-left: 100px;
+}
+.menu ul li a{
+	text-align: center;
+	text-decoration: none;
+	color: black;
+	transform: translateX(-50px);
+	transition: 0.4s;
+}
+.menu ul li a:hover{
+	text-decoration: none;
+	color: #ff7200;
+	text-decoration: underline;
+	text-decoration-color: #ff7200;
+}
+.signin {
+	float: right;
+	transform: translateY(-18px);
+	padding-right: 30px;
+}
+.signin button{
+	color: #ff7200;
+	background: whitesmoke;
+	border: #ff7200 solid 1px;
+	transition: 0.4s;
+	border-radius: 5px;
+}
+.signin button:hover{
+	color: #fff;
+	background: #ff7200;
+	border: none;border-radius: 2px;
+}
+.page{
+	color: #ff7523;
+	text-align: center;
+}
+.content h2{
+	color: black;
+}
+.content p{
+	color: black;
+	font-family: sans-serif;
+	white-space: 20px;
+}
+.searchbar{
+	float: right;
+	transform: translateY(-100px);
+	padding-top: 10px;
+}
+.searchbar input{
+	border-top: 0;
+	border-left: 0;
+	border-right: 0;
+	border-color: #ff7200;
+	border-radius: 0px;
+}
+.search{
+	color: #ff7200;
+	background: whitesmoke;
+	border: #ff7200 solid 1px;
+	transition: 0.4s;
+	border-radius: 5px;
+}
+.search:hover{
+	color: #fff;
+	background: #ff7200;
+	border: none;border-radius: 2px;
+}
+.ourServices {
+	text-align: center;
+	white-space: 10px;
+}
+.course{
+	text-align: right;
+
+}
+.coursePricing{
+	font-size:14px ;
+	text-align: center;
+	display: table-footer-group;
+	position: relative;
+}
+.coursePricing h2{
+	font-size: 32px;
+	color: #ff7200;
+}
+.coursePricing table{
+	table-layout: auto;
+	padding-top: 10px;
+	padding-left: 32px;
+}
+.coursePricing table tr{
+	background: darkgoldenrod;
+	padding-top: 10px;
+	padding-left: 32px;
+	color: limegreen;
+}
+.coursePricing table tr th{
+	padding-top: 10px;
+	padding-left: 32px;
+	font-size: 20px;
+}
+.coursePricing table tr td{
+	padding-top: 10px;
+	padding-left: 32px;
+	color: lightgrey;
+}
+.coursePricing button{
+	background: limegreen;
+	color: white;
+	border: green solid 2px;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: 0.4s;
+}
+.coursePricing button:hover{
+	background: whitesmoke;
+	color: green;
+	border: lime solid 2px;
+	transition: 0.4s;
+}
+#u {
+	transform: translateX(25vw);
+}
+.coursess{
+	font-family: monospace;
+	font-size: 14px;
+}
